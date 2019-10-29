@@ -4,3 +4,16 @@ form{
   align-items: center;
   margin-top: 100px;
 }
+.danger input{
+  border: 3px solid darkred;
+}
+.success input{
+  border: 3px solid darkgreen;
+}
+
+
+.form-control:focus {
+  border-color: inherit;
+  box-shadow: none;
+
+}
